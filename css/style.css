@@ -137,7 +137,10 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
-
+main {
+    max-width: 4640px;
+    margin: 0 auto;
+}
 .header {
   width: 100%;
   position: absolute;
@@ -199,7 +202,7 @@ h6 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  content: url(../../images/45.png);
+  content: url(../images/45.png);
 }
 @media (min-width: 767.98px) {
   .social-header__icons {
@@ -313,7 +316,7 @@ h6 {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  content: url(../../images/46.png);
+  content: url(../images/46.png);
 }
 .header__button_s .header__arrow {
   display: none;
@@ -2419,7 +2422,7 @@ main {
   opacity: 0.5;
 }
 .item-form input.correct {
-  background: url(../../images/31.png) left no-repeat;
+  background: url(../images/31.png) left no-repeat;
   padding: 0px 0px 0px 35px;
   -webkit-transform: translate(-20px, 0px);
           transform: translate(-20px, 0px);
@@ -2434,7 +2437,7 @@ main {
     padding: 0px 0px 0px 28px;
     -webkit-transform: translate(-16px, 0px);
             transform: translate(-16px, 0px);
-    background-image: url(../../images/41.png);
+    background-image: url(../images/41.png);
   }
 }
 .item-form input.focus {
@@ -2485,7 +2488,7 @@ main {
   letter-spacing: 0.2em;
   color: #ffffff;
   margin-left: 0px;
-  background: url(../../images/32.png) no-repeat;
+  background: url(../images/32.png) no-repeat;
   background-position: right 14px bottom 48%;
 }
 @media (max-width: 479.98px) {
@@ -2694,7 +2697,7 @@ main {
 }
 
 .shop__decor {
-  content: url(../../images/39.png);
+  content: url(../images/39.png);
   position: absolute;
   bottom: -910px;
   left: -20px;
