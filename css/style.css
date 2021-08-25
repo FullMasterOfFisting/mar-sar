@@ -137,8 +137,7 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
-main {
-}
+
 .header {
   width: 100%;
   position: absolute;
@@ -1523,6 +1522,14 @@ main {
 
 .main-screen__inscripe {
   position: absolute;
+  z-index: 1;
+  top: 400px;
+  opacity: 0.03;
+  font-family: "Alpha Headline";
+  font-size: 265.3px;
+  line-height: 335px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .main-screen__decor {
@@ -2695,6 +2702,7 @@ main {
 }
 
 .shop__decor {
+  content: url(../images/39.png);
   position: absolute;
   bottom: -910px;
   left: -20px;
